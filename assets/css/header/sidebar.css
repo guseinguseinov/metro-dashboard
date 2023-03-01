@@ -1,0 +1,25 @@
+.wrapper .sidebar ul li a {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active {
+    color: #0c7db1;
+
+    background: white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before {
+    display: block;
+}
